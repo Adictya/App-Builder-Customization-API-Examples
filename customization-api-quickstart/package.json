@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "start": "agora-app-builder-cli",
-    "start:info": "agora-app-builder-cli --info"
+    "start:info": "agora-app-builder-cli --info",
+    "setup": "agora-app-builder install && agora-app-builder-cli import 'quickstart-customization' ",
+    "reset": "agora-app-builder-cli import 'quickstart-customization' "
   },
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "agora-app-builder-cli": "2.0.0"
+    "agora-app-builder-cli": "^2.0.0"
   }
 }
