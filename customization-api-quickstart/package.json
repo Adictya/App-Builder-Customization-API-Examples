@@ -4,7 +4,7 @@
   "scripts": {
     "start": "agora-app-builder-cli",
     "start:info": "agora-app-builder-cli --info",
-    "setup": "agora-app-builder install && agora-app-builder-cli import 'quickstart-customization' ",
+    "setup": "agora-app-builder-cli install && agora-app-builder-cli import 'quickstart-customization' ",
     "reset": "agora-app-builder-cli import 'quickstart-customization' "
   },
   "keywords": [],
